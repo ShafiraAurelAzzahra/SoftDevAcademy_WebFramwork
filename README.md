@@ -9,8 +9,8 @@ Judul Project : Website pembelajaran pemodelan pernagkat lunak untuk jurusan RPL
 # Project
 
 Tipe **Open**
-Teknologi : 
 
+Teknologi : 
  1. Frontend (Boostrap + JQuery)
  2. Backend (PHP CI)
  3. Database (Mysql/ WRM CI)
