@@ -16,6 +16,8 @@ Teknologi :
  3. Database (Mysql/ WRM CI)
  4. Quiz Engine (Java Script)
 
+# Link Desain UI/UX Figma
+https://www.figma.com/design/DH4Vz6fFgKwBMxDY6uFf2t/Desain-Project-WebFramework-SoftDevAcademy?node-id=0-1&t=onAgdjthrPN6Fq1m-1
 
 ## Timeline
 
