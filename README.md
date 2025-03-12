@@ -3,7 +3,7 @@
 Nama : Shafira Aurel Azzahra
 Npm : 2213025005
 
-Judul Project : Website pembelajaran pemodelan pernagkat lunak untuk jurusan RPL dengan quiz interaktif didalamnya 
+Judul Project : Website pembelajaran Algoritma untuk jurusan RPL dengan quiz interaktif didalamnya 
 
 
 # Project
