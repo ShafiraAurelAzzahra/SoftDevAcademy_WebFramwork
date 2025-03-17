@@ -14,6 +14,8 @@
     <link href="css/bootstrap.min.css" rel="stylesheet"> <!-- Mengimpor stylesheet Bootstrap untuk styling -->
     <link href="css/icon_navigasi.css" rel="stylesheet"> <!-- Mengimpor stylesheet untuk ikon navigasi -->
     <link href="css/desain.css" rel="stylesheet"> <!-- Mengimpor stylesheet untuk desain khusus -->
+    <link href="css/magnific-popup.css" rel="stylesheet">
+    <link href="css/aos.css" rel="stylesheet">
 </head>
 
 <body>
