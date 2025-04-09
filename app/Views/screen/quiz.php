@@ -1,23 +1,22 @@
-<section class="quiz section-padding" id="quiz"> <!-- Bagian ini adalah section untuk quiz dengan padding yang diatur -->
-    <div class="container"> <!-- Kontainer untuk mengatur layout -->
-        <h1>Quiz</h1> <!-- Judul bagian quiz -->
-        <div class="quiz-grid"> <!-- Kontainer untuk grid item quiz -->
-            <div class="quiz-item"> <!-- Item quiz untuk Variabel dan Konstanta -->
-                <a href="QuizVariabel.php"> <!-- Tautan ke halaman quiz untuk Variabel dan Konstanta -->
-                    <span>Variabel dan Konstanta</span> <!-- Teks untuk item quiz -->
+<section class="quiz section-padding" id="quiz">
+    <div class="container">
+        <h1>Quiz</h1>
+        <div class="quiz-grid">
+            <div class="quiz-item">
+                <a href="QuizVariabel.php">
+                    <span>Variabel dan Konstanta</span>
                 </a>
             </div>
-            <div class="quiz-item"> <!-- Item quiz untuk Kondisi Percabangan -->
-                <a href="QuizKondisiPercabangan.php"> <!-- Tautan ke halaman quiz untuk Kondisi Percabangan -->
-                    <span>Kondisi Percabangan</span> <!-- Teks untuk item quiz -->
+            <div class="quiz-item">
+                <a href="QuizKondisiPercabangan.php">
+                    <span>Kondisi Percabangan</span>
                 </a>
             </div>
-            <div class="quiz-item"> <!-- Item quiz untuk Looping -->
-                <a href="QuizLooping.php"> <!-- Tautan ke halaman quiz untuk Looping -->
-                    <span>Looping</span> <!-- Teks untuk item quiz -->
+            <div class="quiz-item">
+                <a href="QuizLooping.php">
+                    <span>Looping</span>
                 </a>
             </div>
-            <!-- Item quiz lainnya mengikuti pola yang sama -->
             <div class="quiz-item">
                 <a href="QuizFungsidanProsedur.php">
                     <span>Fungsi dan Prosedur</span>

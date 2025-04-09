@@ -1,31 +1,29 @@
-<section class="material section-padding" id="material"> <!-- Bagian ini adalah section untuk materi dengan padding yang diatur -->
-    <div class="container"> <!-- Kontainer untuk mengatur layout -->
-        <div class="row"> <!-- Baris untuk mengatur kolom di dalam kontainer -->
-            <div class="col-12"> <!-- Kolom yang mengambil seluruh lebar (12 kolom) -->
-                <h2 class="mb-5 text-center" data-aos="fade-up">Material</h2> <!-- Judul bagian dengan efek animasi fade-up dan teks terpusat -->
+<section class="material section-padding" id="material">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h2 class="mb-5 text-center" data-aos="fade-up">Material</h2>
             </div>
-            <div class="container"> <!-- Kontainer tambahan untuk grid materi -->
-                <div class="grid"> <!-- Kontainer untuk grid item materi -->
-                    <!-- Setiap grid-item berisi gambar dan link ke materi -->
-                    <div class="grid-item"> <!-- Item grid untuk materi -->
-                        <img src="Materi.jpg" alt="Variabel Konstanta"> <!-- Gambar untuk materi -->
-                        <div class="title-container"> <!-- Kontainer untuk judul materi -->
-                            <a href="MateriVariabel.php">Variabel Konstanta</a> <!-- Link ke halaman materi -->
+            <div class="container">
+                <div class="grid">
+                    <div class="grid-item">
+                        <img src="Materi.jpg" alt="Variabel Konstanta">
+                        <div class="title-container">
+                            <a href="MateriVariabel.php">Variabel Konstanta</a>
                         </div>
                     </div>
-                    <div class="grid-item"> <!-- Item grid untuk materi -->
-                        <img src="Materi.jpg" alt="Kondisi Percabangan"> <!-- Gambar untuk materi -->
-                        <div class="title-container"> <!-- Kontainer untuk judul materi -->
-                            <a href="MateriKondisiPercabangan.php">Kondisi Percabangan</a> <!-- Link ke halaman materi -->
+                    <div class="grid-item">
+                        <img src="Materi.jpg" alt="Kondisi Percabangan">
+                        <div class="title-container">
+                            <a href="MateriKondisiPercabangan.php">Kondisi Percabangan</a>
                         </div>
                     </div>
-                    <div class="grid-item"> <!-- Item grid untuk materi -->
-                        <img src="Materi.jpg" alt="Looping"> <!-- Gambar untuk materi -->
-                        <div class="title-container"> <!-- Kontainer untuk judul materi -->
-                            <a href="MateriLooping.php">Looping</a> <!-- Link ke halaman materi -->
+                    <div class="grid-item">
+                        <img src="Materi.jpg" alt="Looping">
+                        <div class="title-container">
+                            <a href="MateriLooping.php">Looping</a>
                         </div>
                     </div>
-                    <!-- Item grid lainnya mengikuti pola yang sama -->
                     <div class="grid-item">
                         <img src="Materi.jpg" alt="Fungsi dan Prosedur">
                         <div class="title-container">

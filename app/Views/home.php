@@ -7,48 +7,57 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <title>SoftDev Academy</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com"> <!-- Mengoptimalkan koneksi ke Google Fonts -->
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> <!-- Mengoptimalkan koneksi ke Google Fonts dengan cross-origin -->
-    <link rel="shortcut icon" type="x-icon" href="Logo.jpg"> <!-- Menentukan favicon untuk halaman -->
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;700;900&display=swap" rel="stylesheet"> <!-- Mengimpor font Noto Sans JP -->
-    <link href="css/bootstrap.min.css" rel="stylesheet"> <!-- Mengimpor stylesheet Bootstrap untuk styling -->
-    <link href="css/icon_navigasi.css" rel="stylesheet"> <!-- Mengimpor stylesheet untuk ikon navigasi -->
-    <link href="css/desain.css" rel="stylesheet"> <!-- Mengimpor stylesheet untuk desain khusus -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="shortcut icon" type="x-icon" href="img/Logo.jpg">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/icon_navigasi.css" rel="stylesheet">
+    <link href="css/desain.css" rel="stylesheet">
     <link href="css/magnific-popup.css" rel="stylesheet">
     <link href="css/aos.css" rel="stylesheet">
+    <style>
+        html {
+            scroll-behavior: smooth;
+            /* Menambahkan efek smooth scroll */
+        }
+    </style>
 </head>
 
 <body>
-
     <main>
         <!-- Include Homepage -->
-        <?php include 'controller/homepage.php'; ?> <!-- Menyertakan konten dari file homepage.php -->
-
-        <!-- Include Navbar -->
-        <?php include 'controller/navbar.php'; ?> <!-- Menyertakan konten dari file navbar.php -->
+        <?php include 'screen/homepage.php'; ?>
 
         <!-- Include About Section -->
-        <?php include 'controller/about.php'; ?> <!-- Menyertakan konten dari file about.php -->
+        <div id="about">
+            <?php include 'screen/about.php'; ?>
+        </div>
 
         <!-- Include Material Section -->
-        <?php include 'controller/material.php'; ?> <!-- Menyertakan konten dari file material.php -->
+        <div id="material">
+            <?php include 'screen/material.php'; ?>
+        </div>
 
         <!-- Include Quiz Section -->
-        <?php include 'controller/quiz.php'; ?> <!-- Menyertakan konten dari file quiz.php -->
+        <div id="quiz">
+            <?php include 'screen/quiz.php'; ?>
+        </div>
 
         <!-- Include Contact Section -->
-        <?php include 'controller/contact.php'; ?> <!-- Menyertakan konten dari file contact.php -->
+        <div id="contact">
+            <?php include 'screen/contact.php'; ?>
+        </div>
     </main>
 
-    <!-- Include Footer -->
-    <?php include 'controller/footer.php'; ?> <!-- Menyertakan konten dari file footer.php -->
+    <?= $this->include('screen/footer') ?> <!-- Footer hanya dimuat sekali di sini -->
 
-    <script src="js/jquery.min.js"></script> <!-- Mengimpor jQuery untuk manipulasi DOM -->
-    <script src="js/scroll.js"></script> <!-- Mengimpor script untuk efek scroll -->
-    <script src="js/script.js"></script> <!-- Mengimpor script utama untuk fungsionalitas halaman -->
-    <script src="js/search.js"></script> <!-- Mengimpor script untuk fungsionalitas pencarian -->
-    <script src="js/popup.js"></script> <!-- Mengimpor script untuk popup -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script> <!-- Mengimpor bundle JavaScript Bootstrap -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/scroll.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/search.js"></script>
+    <script src="js/popup.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
