@@ -14,13 +14,16 @@ if (file_exists(SYSTEMPATH . 'Config/Routes.php')) {
 }
 
 // Mendefinisikan rute default
-$routes->get('/', 'Home::index');
+$routes->get('/', 'Home::index'); // Rute untuk halaman utama
 
 // Rute tambahan
 $routes->get('/about', 'About::index'); // Rute untuk halaman Tentang
 $routes->get('/contact', 'Contact::index'); // Rute untuk halaman Kontak
 $routes->get('/material', 'Material::index'); // Rute untuk halaman Materi
 $routes->get('/quiz', 'Quiz::index'); // Rute untuk halaman Kuis
+
+// Rute untuk homepage
+$routes->get('/homepage', 'Homepage::index'); // Rute untuk halaman Homepage
 
 // Contoh rute untuk materi spesifik
 $routes->get('/material/variabel', 'Material::variabel'); // Rute untuk materi Variabel
