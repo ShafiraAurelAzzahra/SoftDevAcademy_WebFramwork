@@ -41,15 +41,15 @@ $routes->get('materi/MateriTree', 'Materi::MateriTree');
 
 
 // Contoh rute untuk kuis
-$routes->get('/quiz/variabel', 'Quiz::variabel'); // Rute untuk Kuis Variabel
-$routes->get('/quiz/kondisi-percabangan', 'Quiz::kondisiPercabangan'); // Rute untuk Kuis Kondisi Percabangan
-$routes->get('/quiz/looping', 'Quiz::looping'); // Rute untuk Kuis Looping
-$routes->get('/quiz/fungsi-dan-prosedur', 'Quiz::fungsiDanProsedur'); // Rute untuk Kuis Fungsi dan Prosedur
-$routes->get('/quiz/array', 'Quiz::array'); // Rute untuk Kuis Array
-$routes->get('/quiz/stack', 'Quiz::stack'); // Rute untuk Kuis Stack
-$routes->get('/quiz/queue', 'Quiz::queue'); // Rute untuk Kuis Queue
-$routes->get('/quiz/linked-list', 'Quiz::linkedList'); // Rute untuk Kuis Linked List
-$routes->get('/quiz/sorting-dan-searching', 'Quiz::sortingDanSearching'); // Rute untuk Kuis Sorting dan Searching
-$routes->get('/quiz/matriks', 'Quiz::matriks'); // Rute untuk Kuis Matriks
-$routes->get('/quiz/pointer', 'Quiz::pointer'); // Rute untuk Kuis Pointer
-$routes->get('/quiz/tree', 'Quiz::tree'); // Rute untuk Kuis Tree
+$routes->get('quiz/QuizVariabel', 'Quiz::QuizVariabel'); // Rute untuk Kuis Variabel
+$routes->get('quiz/QuizKondisiPercabangan', 'Quiz::QuizKondisiPercabangan'); // Rute untuk Kuis Kondisi Percabangan
+$routes->get('quiz/QuizLooping', 'Quiz::QuizLooping'); // Rute untuk Kuis Looping
+$routes->get('quiz/QuizFungsidanProsedur', 'Quiz::QuizFungsidanProsedur'); // Rute untuk Kuis Fungsi dan Prosedur
+$routes->get('quiz/QuizArray', 'Quiz::QuizArray'); // Rute untuk Kuis Array
+$routes->get('quiz/QuizStack', 'Quiz::QuizStack'); // Rute untuk Kuis Stack
+$routes->get('quiz/QuizQueue', 'Quiz::QuizQueue'); // Rute untuk Kuis Queue
+$routes->get('quiz/QuizLinkedList', 'Quiz::QuizLinkedList'); // Rute untuk Kuis Linked List
+$routes->get('quiz/QuizSortingandSearching', 'Quiz::QuizSortingandSearching'); // Rute untuk Kuis Sorting dan Searching
+$routes->get('quiz/QuizMatriks', 'Quiz::QuizMatriks'); // Rute untuk Kuis Matriks
+$routes->get('quiz/QuizPointer', 'Quiz::QuizPointer'); // Rute untuk Kuis Pointer
+$routes->get('quiz/QuizTree', 'Quiz::QuizTree'); // Rute untuk Kuis Tree
