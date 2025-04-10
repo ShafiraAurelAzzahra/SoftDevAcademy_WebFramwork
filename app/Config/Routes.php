@@ -2,7 +2,7 @@
 
 namespace Config;
 
-use CodeIgniter\Router\RouteCollection;
+use RouteCollection;
 
 /**
  * @var RouteCollection $routes
@@ -26,18 +26,19 @@ $routes->get('/quiz', 'Quiz::index'); // Rute untuk halaman Kuis
 $routes->get('/homepage', 'Homepage::index'); // Rute untuk halaman Homepage
 
 // Contoh rute untuk materi spesifik
-$routes->get('/material/variabel', 'Material::variabel'); // Rute untuk materi Variabel
-$routes->get('/material/kondisi-percabangan', 'Material::kondisiPercabangan'); // Rute untuk materi Kondisi Percabangan
-$routes->get('/material/looping', 'Material::looping'); // Rute untuk materi Looping
-$routes->get('/material/fungsi-dan-prosedur', 'Material::fungsiDanProsedur'); // Rute untuk materi Fungsi dan Prosedur
-$routes->get('/material/array', 'Material::array'); // Rute untuk materi Array
-$routes->get('/material/stack', 'Material::stack'); // Rute untuk materi Stack
-$routes->get('/material/queue', 'Material::queue'); // Rute untuk materi Queue
-$routes->get('/material/linked-list', 'Material::linkedList'); // Rute untuk materi Linked List
-$routes->get('/material/sorting-dan-searching', 'Material::sortingDanSearching'); // Rute untuk materi Sorting dan Searching
-$routes->get('/material/matriks', 'Material::matriks'); // Rute untuk materi Matriks
-$routes->get('/material/pointer', 'Material::pointer'); // Rute untuk materi Pointer
-$routes->get('/material/tree', 'Material::tree'); // Rute untuk materi Tree
+$routes->get('materi/materi-variabel', 'Materi::materiVariabel');
+$routes->get('materi/materi-kondisi', 'Materi::materiKondisi');
+$routes->get('materi/MateriLooping', 'Materi::MateriLooping');
+$routes->get('materi/MateriFungsidanProsedur', 'Materi::MateriFungsidanProsedur');
+$routes->get('materi/MateriArray', 'Materi::MateriArray');
+$routes->get('materi/MateriStack', 'Materi::MateriStack');
+$routes->get('materi/MateriQueue', 'Materi::MateriQueue');
+$routes->get('materi/MateriLinkedList', 'Materi::MateriLinkedList');
+$routes->get('materi/MateriSortingandSearching', 'Materi::MateriSortingandSearching');
+$routes->get('materi/MateriMatriks', 'Materi::MateriMatriks');
+$routes->get('materi/MateriPointer', 'Materi::MateriPointer');
+$routes->get('materi/MateriTree', 'Materi::MateriTree');
+
 
 // Contoh rute untuk kuis
 $routes->get('/quiz/variabel', 'Quiz::variabel'); // Rute untuk Kuis Variabel
