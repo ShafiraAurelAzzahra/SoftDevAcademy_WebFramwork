@@ -1,0 +1,118 @@
+     /* Styling untuk bar belakang */
+        .back-bar {
+            background-color: #f8f9fa;
+            padding: 15px 0;
+            border-bottom: 2px solid #ddd;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            display: flex;
+            justify-content: flex-start !important;
+            align-items: center;
+            text-align: left !important;
+        }
+
+        /* Tambahan untuk container di dalam back-bar jika ada */
+        .back-bar .container {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            width: 100%;
+        }
+
+        /* Styling untuk tombol kembali */
+        .back-button {
+            background-color: #191970;
+            color: white;
+            padding: 8px 16px;
+            /* disamakan */
+            border-radius: 8px;
+            /* disamakan */
+            text-decoration: none;
+            font-size: 16px;
+            /* disamakan */
+            font-weight: 600;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+            display: inline-flex;
+            align-items: center;
+        }
+
+        /* Hover effect untuk tombol */
+        .back-button:hover {
+            background-color: #191970;
+            transform: translateY(-3px);
+        }
+
+        /* Efek tombol saat diklik */
+        .back-button:active {
+            transform: translateY(1px);
+        }
+
+        /* Icon di dalam tombol */
+        .back-button i {
+            margin-right: 10px;
+            font-size: 20px;
+        }
+
+        .back-bar-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: relative;
+        }
+
+        /* Pastikan tombol tetap di kiri */
+        .back-button {
+            background-color: #191970;
+            color: white;
+            padding: 8px 16px;
+            /* disamakan */
+            border-radius: 8px;
+            /* disamakan */
+            text-decoration: none;
+            font-size: 16px;
+            /* disamakan */
+            font-weight: 600;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+            display: inline-flex;
+            align-items: center;
+        }
+
+
+        .back-button:hover {
+            background-color: #191970;
+            transform: translateY(-3px);
+        }
+
+        .back-button:active {
+            transform: translateY(1px);
+        }
+
+        /* Modul info di tengah */
+        .module-tag {
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            background-color: #191970;
+            color: #ffffff;
+            /* warna teks putih */
+            padding: 8px 16px;
+            border-radius: 8px;
+            font-size: 16px;
+            /* ukuran diperbesar */
+            font-weight: 600;
+            /* sedikit ditebalkan */
+            box-shadow: 0 1px 3px rgba(255, 255, 255, 0.2);
+        }
+
+        /* Info kelas di kanan */
+        .info-kanan {
+            margin-right: 20px;
+            background-color: #191970;
+            color: #ffffff;
+            padding: 8px 16px;
+            border-radius: 8px;
+            font-size: 16px;
+            font-weight: 600;
+            box-shadow: 0 1px 3px rgba(255, 255, 255, 0.2);
+            white-space: nowrap;
+            margin-left: auto;
+        }
