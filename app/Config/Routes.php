@@ -18,7 +18,10 @@ $routes->get('/', 'Home::index'); // Rute untuk halaman utama
 
 // Rute tambahan
 $routes->get('/about', 'About::index'); // Rute untuk halaman Tentang
-$routes->get('/contact', 'Contact::index'); // Rute untuk halaman Kontak
+
+$routes->get('/contact', 'Contact::index');
+$routes->post('/contact/send', 'Contact::send');
+
 $routes->get('/material', 'Material::index'); // Rute untuk halaman Materi
 $routes->get('/quiz', 'Quiz::index'); // Rute untuk halaman Kuis
 
